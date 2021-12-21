@@ -1,17 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package model;
+package models;
 
-/**
- *
- * @author Rafael
- */
 public class Aeronave {
-    
-    private String modelo;
+
+	private String modelo;
 
     public Aeronave(String modelo) {
         this.modelo = modelo;
@@ -30,6 +21,4 @@ public class Aeronave {
         return null;
         
     }
-    
 }
-

@@ -1,22 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package model;
+package models;
 
-/**
- *
- * @author Rafael
- */
-class Passageiro {
-    
-    private String nome;
+public class Passageiro {
+	
+	private String nome;
     private String cpf;
 
     public Passageiro(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
+    }
+
+    public Passageiro() {
+        
     }
 
    
@@ -45,4 +40,5 @@ class Passageiro {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
+
 }
